@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "description": "portfolio of Ashish Mishra - UI Developer",
+  "main": "app.js",
+  "author": "Ashish Mishra <ashishjpm@gmail.com>",
+  "contributors": [
+    {
+      "name": "Ashish Mishra",
+      "email": "ashishjpm@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashishjpm/portfolio.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "homepage": "https://github.com/ashishjpm/portfolio.git#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {}
+}
