@@ -21,7 +21,7 @@ body { margin:0px; background-color: white; }
 
 .tab-nav-home-page{
   text-align: center;
-  margin-bottom: 25px;
+  padding-bottom: 25px;
 }
 
 .tab-nav-home-page li{
@@ -45,7 +45,7 @@ body { margin:0px; background-color: white; }
 .header-wraper{
   text-align: center;
   background: #3F51B5;
-  position: absolute;
+  position: relative;
   width: 100%;
 }
 
@@ -68,6 +68,33 @@ body { margin:0px; background-color: white; }
 
 .my-img{
   border-radius: 50%;
-  height: 165px;
+  height: 200px;
   margin-top: 2%;
 }
+
+/*materialze css start*/
+
+footer.page-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: #3F51B5;
+}
+
+.white-text {
+  color: #FFFFFF !important;
+}
+.grey-text {
+  color: #9e9e9e !important;
+}
+footer.page-footer .footer-copyright {
+  overflow: hidden;
+  height: 50px;
+  line-height: 50px;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(48, 63, 159, 1);
+}
+
+/*materialize css end*/
