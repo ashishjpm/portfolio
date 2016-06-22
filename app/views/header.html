@@ -1,0 +1,14 @@
+ <header class="header-wraper">
+      <div class="header-container">
+          <img src="app/images/profilePic.jpg" alt="" class="my-img">
+          <h2 id="my-name">Ashish Mishra</h2>
+          <span class="designation">UI Developer</span>
+      </div>
+      <nav>
+          <div class="nav-wrapper">
+              <ul class="tab-nav-home-page">
+                  <li ng-repeat="tabName in headerTabs" ng-click="headerTabClick($index,tabName)"><a class="notext-deco noselect">{{tabName}}</a></li>
+              </ul>
+          </div>
+      </nav>
+  </header>
