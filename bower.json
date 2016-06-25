@@ -9,11 +9,11 @@
     "angular-ui-router": "^0.2.18",
     "material-design-lite": "^1.1.2",
     "jquery-ui": "^1.11.4",
-    "components-font-awesome": "^4.5.0",
+    "components-font-awesome": "^4.5.0"
   },
   "devDependencies": {
-    "angular-mocks": "^1.5.0",
+    "angular-mocks": "^1.5.0"
   },
   "appPath": "/app/index.html",
-  "moduleName": "portfolio",
+  "moduleName": "portfolio"
 }

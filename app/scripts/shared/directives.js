@@ -8,4 +8,4 @@
  * @author Ashish Mishra <ashishjpm@gmail.com>
  * @version 1.0
  */
-angular.module('portfolio.directives', ['ui.bootstrap']);
+angular.module('portfolio.directives', []);

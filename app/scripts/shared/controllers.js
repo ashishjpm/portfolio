@@ -8,4 +8,4 @@
  * @author Vamshi Suram <vamshi@9leaps.com>
  * @version 1.0
  */
-angular.module('portfolio.controllers', ['ui.bootstrap']);
+angular.module('portfolio.controllers', []);

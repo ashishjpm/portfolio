@@ -1,5 +1,4 @@
-body ,html{ margin:0px; background-color: white; }
-
+/*Common and global CSS START*/
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;   /* Chrome/Safari/Opera */
@@ -18,25 +17,32 @@ body ,html{ margin:0px; background-color: white; }
   text-decoration: none !important;
 }
 
+body ,html
+{ 
+    margin:0px; 
+    background-color: white; 
+}
+/*Common and global CSS END*/
 
-.tab-nav-home-page{
+/*Header CSS Start*/
+.tab-nav-header{
   text-align: center;
   padding-bottom: 25px;
 }
 
-.tab-nav-home-page li{
+.tab-nav-header li{
   display: inline-block;
   padding: 0% 3%;
   cursor:pointer;
   transition:1s;
 }
 
-.tab-nav-home-page li:hover{
+.tab-nav-header li:hover{
   background:rgba(0,0,0,0.2); 
   border-radius: 4px;
 }
 
-.tab-nav-home-page li a{
+.tab-nav-header li a{
   color: white !important;
   font-size:2.7em;
   font-weight: 300;
@@ -45,7 +51,6 @@ body ,html{ margin:0px; background-color: white; }
 .header-wraper{
   text-align: center;
   background: #3F51B5;
-  position: relative;
   width: 100%;
 }
 
@@ -68,17 +73,15 @@ body ,html{ margin:0px; background-color: white; }
 
 .my-img{
   border-radius: 50%;
-  height: 200px;
+  width: 14%;
+  min-width: 200px;
   margin-top: 2%;
 }
+/*Header CSS END*/
 
 /*materialze css start*/
-
-footer.page-footer {
-  position: absolute;
-  bottom: 0;
+footer.footer-wrapper {
   width: 100%;
- 
   padding: 5px 15x;
   background-color: #3F51B5;
 }
@@ -89,12 +92,11 @@ footer.page-footer {
 .grey-text {
   color: #9e9e9e !important;
 }
-footer.page-footer .footer-copyright {
+footer.footer-wrapper .footer-copyright {
   overflow: hidden;
   height: 50px;
   line-height: 50px;
   color: rgba(255, 255, 255, 0.8);
   background-color: rgba(48, 63, 159, 1);
 }
-
 /*materialize css end*/
