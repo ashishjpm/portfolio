@@ -3,9 +3,9 @@
 /**
  * Controllers module of the application.
  *
- * @namespace haloApp.controllers
+ * @namespace portfolio.controllers
  * @memberOf haloApp
- * @author Vamshi Suram <vamshi@9leaps.com>
+ * @author Ashish Mishra <ashishjpm@gmail.com>
  * @version 1.0
  */
 angular.module('portfolio.controllers', []);
