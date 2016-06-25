@@ -25,6 +25,17 @@ body ,html
 /*Common and global CSS END*/
 
 /*Header CSS Start*/
+#particles-js {
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  background-color: #b61924;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
 .tab-nav-header{
   text-align: center;
   padding-bottom: 25px;
