@@ -38,13 +38,20 @@ body ,html
 
 .tab-nav-header{
   text-align: center;
+  margin: 0px;
 }
 
 .tab-nav-header li{
   display: inline-block;
   padding: 0.5% 3%;
-  cursor:pointer;
+  cursor:pointer;    
   transition:1s;
+}
+
+.tab-active{
+  border-bottom: solid red 4px;
+     
+  transition:0s !important;
 }
 
 .tab-nav-header li:hover{
@@ -90,8 +97,10 @@ body ,html
 
 /*Content CSS Start*/
 .content-wrapper{
-    background: white;
-    height: 500px;
+    width: 100%;
+    display: inline-block;
+    background: #eee;
+    min-height: 500px;
 }
 /*content CSS END*/
 

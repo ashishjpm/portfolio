@@ -7,7 +7,7 @@
   <nav>
       <div class="nav-wrapper">
           <ul class="tab-nav-header">
-              <li ng-repeat="tabName in headerTabs" ng-click="headerTabClick($index,tabName)">
+              <li ng-repeat="tabName in headerTabs" ng-click="headerTabClick($index,tabName)" ng-class="{'tab-active':tabSelected==$index}">
                   <a class="notext-deco noselect">{{tabName}}</a>
               </li>
           </ul>
