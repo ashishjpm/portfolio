@@ -1,8 +1,11 @@
 <div ng-if="!projectDetails" class="project-wrapper">
     <div>Project</div>
-    <div>
+    <div class="cards-wrapper">
         <span ng-click="projectClicked($index)" ng-repeat="project in projects" class="project-card">
-            {{project.name}}
+            <img ng-src="{{project.image}}">
+            <div class="project-card-content">
+                <span class="project-card-title">{{project.name}}</span>
+            </div>
         </span>
     </div>
 </div>

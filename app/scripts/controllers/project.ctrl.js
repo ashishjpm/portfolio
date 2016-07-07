@@ -15,23 +15,39 @@ angular.module('portfolio.controllers')
 		$scope.projects = [
             {
                 id: 'project1',
-                name: 'about me',
-                description: 'things written about me'
+                name: 'TRAI - Public Portal',
+                description: 'things written about me',
+                image: 'app/images/4.jpg'
             },
             {
                 id: 'project2',
-                name: 'skills',
-                description: 'things written about me'
+                name: 'BESCOM - Analytic Dashboard',
+                description: 'things written about me',
+                image: 'app/images/2.jpg'
             },
             {
                 id: 'project3',
-                name: 'projects',
-                description: 'things written about me'
+                name: 'HALO - One Minute BI Tool',
+                description: 'things written about me',
+                image: 'app/images/7.jpg'
             },
             {
                 id: 'project4',
-                name: 'resume',
-                description: 'things written about me'
+                name: 'AWS monitoring tool',
+                description: 'things written about me',
+                image: 'app/images/6.jpg'
+            },
+            {
+                id: 'project5',
+                name: 'Web Application monitoring tool',
+                description: 'things written about me',
+                image: 'app/images/5.jpg'
+            },
+            {
+                id: 'project6',
+                name: 'Data analysis platform',
+                description: 'things written about me',
+                image: 'app/images/3.jpg'
             }
         ];
         $scope.projectSelected='/app/views/project/details/';
