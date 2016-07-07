@@ -20,7 +20,11 @@
 body ,html
 { 
     margin:0px; 
-    background-color: white; 
+    background-color: white;     
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.87);
 }
 /*Common and global CSS END*/
 
@@ -76,7 +80,7 @@ body ,html
 
 .designation{
   padding: 4px 25px;
-  color: black;
+  color: rgba(0,0,0,0.7);
   background: #FAF46A;    
   border-radius: 3px;
   font-style: italic;
@@ -103,6 +107,49 @@ body ,html
     min-height: 500px;
 }
 /*content CSS END*/
+
+/*Footer CSS START*/
+footer{
+    text-align: center;
+}
+footer .socialize{
+    padding: 30px;
+}
+footer .socialize h5 {
+    letter-spacing: 0.25em;
+    font-size: 20px;
+    color: #fff !important;
+    text-transform: uppercase;
+    margin-bottom: 0.5em !important;
+}
+footer .socialize p {
+    width: 50%;
+    margin: 0 auto 40px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #f5f5f5 !important;
+    font-family: "Roboto", sans-serif;
+}
+.follow-us i{
+    font-size: 68px;
+    width: 77px;
+    margin: 0 10px 0 0;
+    text-align: center;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    background: transparent;
+    opacity: 0.2;
+    color: #fff;
+}
+
+.follow-us i:hover{
+    background: transparent;
+    opacity: 1;
+}
+/*Footer CSS END*/
 
 /*materialze css start*/
 footer.footer-wrapper {
