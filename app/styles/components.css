@@ -53,8 +53,7 @@ body ,html
 }
 
 .tab-active{
-  border-bottom: solid red 4px;
-     
+  border-bottom: solid #F50057 5px;
   transition:0s !important;
 }
 

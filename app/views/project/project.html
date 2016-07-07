@@ -1,8 +1,12 @@
-<div class="project-wrapper">
+<div ng-if="!projectDetails" class="project-wrapper">
     <div>Project</div>
     <div>
-        <span ng-repeat="project in projects" class="project-card">
-            {{project}}
+        <span ng-click="projectClicked($index)" ng-repeat="project in projects" class="project-card">
+            {{project.name}}
         </span>
     </div>
+</div>
+<div ng-if="projectDetails" ng-include="projectSelected"></div>
+<div ng-if="projectDetails" ng-click="backBtnClicked()" class="floating-back-btn">
+    <i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i>
 </div>
