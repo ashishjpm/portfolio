@@ -45,6 +45,12 @@ body ,html
   margin: 0px;
 }
 
+.tab-nav-header-fixed {
+  position: fixed;
+  top:0; left:0;
+  width: 100%; 
+  background: #3f51b5;
+}
 .tab-nav-header li{
   display: inline-block;
   padding: 0.5% 3%;
@@ -104,6 +110,9 @@ body ,html
     display: inline-block;
     background: rgb(242, 242, 242);
     min-height: 500px;
+}
+.content-wrapper-header-fix{
+    padding-top: 76px;
 }
 /*content CSS END*/
 
